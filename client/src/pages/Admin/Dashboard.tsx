@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { adminAPI, downloadFile } from '../../utils/api';
-import { AdminDashboard as AdminDashboardType } from '../../types';
+import type { AdminDashboard as AdminDashboardType } from '../../types';
 import { formatDate, getCareerTypeColor } from '../../utils/auth';
 import LoadingSpinner from '../../components/Common/LoadingSpinner';
 import { 

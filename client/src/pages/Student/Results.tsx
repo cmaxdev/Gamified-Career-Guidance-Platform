@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { assessmentAPI, downloadFile } from '../../utils/api';
-import { AssessmentResult } from '../../types';
+import type { AssessmentResult } from '../../types';
 import { getCareerTypeColor, getCareerTypeIcon, formatDate } from '../../utils/auth';
 import LoadingSpinner from '../../components/Common/LoadingSpinner';
 import { 

@@ -1,5 +1,5 @@
-import React, { createContext, useContext, useReducer, useEffect, ReactNode } from 'react';
-import { User, AuthState } from '../types';
+import React, { createContext, useContext, useReducer, useEffect, type ReactNode } from 'react';
+import type { User, AuthState } from '../types';
 import { getStoredAuth, setStoredAuth, clearStoredAuth } from '../utils/auth';
 import { authAPI } from '../utils/api';
 

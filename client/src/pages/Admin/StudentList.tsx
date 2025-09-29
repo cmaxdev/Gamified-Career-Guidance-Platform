@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { adminAPI, downloadFile } from '../../utils/api';
-import { User, StudentListResponse } from '../../types';
+import type { User, StudentListResponse } from '../../types';
 import { formatDate, getCareerTypeColor, calculateLevelInfo } from '../../utils/auth';
 import LoadingSpinner from '../../components/Common/LoadingSpinner';
 import { 

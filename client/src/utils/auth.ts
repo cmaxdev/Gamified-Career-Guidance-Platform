@@ -1,4 +1,4 @@
-import { User, LevelInfo } from '../types';
+import type { User, LevelInfo } from '../types';
 
 export const getStoredAuth = () => {
   const token = localStorage.getItem('token');

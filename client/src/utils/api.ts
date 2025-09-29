@@ -1,5 +1,6 @@
-import axios, { AxiosResponse } from 'axios';
-import { 
+import axios from 'axios';
+import type { AxiosResponse } from 'axios';
+import type { 
   LoginForm, 
   RegisterForm, 
   LoginResponse, 

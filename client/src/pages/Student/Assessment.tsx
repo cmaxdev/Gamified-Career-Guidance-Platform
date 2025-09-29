@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import { assessmentAPI } from '../../utils/api';
-import { AssessmentQuestion, AssessmentResponse } from '../../types';
+import type { AssessmentQuestion, AssessmentResponse } from '../../types';
 import LoadingSpinner from '../../components/Common/LoadingSpinner';
 import { 
   ArrowLeft, 
