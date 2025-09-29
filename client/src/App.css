@@ -1,0 +1,25 @@
+/* App-specific styles */
+.App {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Override any default styles that might conflict */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure proper text rendering */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove any default margins/padding that might interfere */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
